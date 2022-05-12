@@ -1,4 +1,4 @@
-module github.com/tsuna/gohbase
+module github.com/smartlab-br/gohbase
 
 go 1.13
 
