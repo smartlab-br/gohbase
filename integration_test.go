@@ -3,6 +3,7 @@
 // Use of this source code is governed by the Apache License 2.0
 // that can be found in the COPYING file.
 
+//go:build integration
 // +build integration
 
 package gohbase_test
@@ -25,10 +26,10 @@ import (
 	"math"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/tsuna/gohbase"
-	"github.com/tsuna/gohbase/filter"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
+	"github.com/smartlab-br/gohbase"
+	"github.com/smartlab-br/gohbase/filter"
+	"github.com/smartlab-br/gohbase/hrpc"
+	"github.com/smartlab-br/gohbase/pb"
 	"google.golang.org/protobuf/proto"
 )
 

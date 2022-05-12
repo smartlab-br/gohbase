@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
+	"github.com/smartlab-br/gohbase/hrpc"
+	"github.com/smartlab-br/gohbase/pb"
 	"google.golang.org/protobuf/proto"
 )
 

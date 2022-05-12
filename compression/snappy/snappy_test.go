@@ -13,9 +13,9 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/tsuna/gohbase/compression"
-	"github.com/tsuna/gohbase/compression/snappy"
-	"github.com/tsuna/gohbase/test"
+	"github.com/smartlab-br/gohbase/compression"
+	"github.com/smartlab-br/gohbase/compression/snappy"
+	"github.com/smartlab-br/gohbase/test"
 )
 
 func TestEncode(t *testing.T) {

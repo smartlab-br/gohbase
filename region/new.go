@@ -3,6 +3,7 @@
 // Use of this source code is governed by the Apache License 2.0
 // that can be found in the COPYING file.
 
+//go:build !testing
 // +build !testing
 
 package region
@@ -13,8 +14,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/tsuna/gohbase/compression"
-	"github.com/tsuna/gohbase/hrpc"
+	"github.com/smartlab-br/gohbase/compression"
+	"github.com/smartlab-br/gohbase/hrpc"
 )
 
 // NewClient creates a new RegionClient.

@@ -13,10 +13,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tsuna/gohbase/compression"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
-	"github.com/tsuna/gohbase/region"
+	"github.com/smartlab-br/gohbase/compression"
+	"github.com/smartlab-br/gohbase/hrpc"
+	"github.com/smartlab-br/gohbase/pb"
+	"github.com/smartlab-br/gohbase/region"
 	"google.golang.org/protobuf/proto"
 )
 
